@@ -3921,7 +3921,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3931,8 +3931,14 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: #000000;
+  border-bottom: 1px solid #084298;
 }
+.nav-link.active{
+  color: #000000;
+  border-bottom: 1px solid #084298;
+}
+
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
@@ -4044,7 +4050,7 @@ textarea.form-control-lg {
 }
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4067,7 +4073,9 @@ textarea.form-control-lg {
   flex-grow: 1;
   align-items: center;
   
+  
 }
+
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -11288,19 +11296,31 @@ textarea.form-control-lg {
 
 }
 .logo-text{
+  transform: translateY(50%);
     position: absolute;
-    width: 300px;
+    width: 200px;
     height: 20px;
-    left: 112px;
+    left: 65px;
 
     font-family: 'Genos', sans-serif;
     font-style: bold;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 20px;
+    
     /* identical to box height, or 50% */
 
     color: white;
 }
 
+/*HOME PAGE*/
+.main-title{
+  color: #065E05;
+  font-size: 40px;
+  font-style: bold;
+  padding-top: 80px;
+}
 
+.main-img{
+  transform: translateX(50%);
+}
