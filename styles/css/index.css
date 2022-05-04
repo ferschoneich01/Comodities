@@ -11324,3 +11324,34 @@ textarea.form-control-lg {
 .main-img{
   transform: translateX(50%);
 }
+
+
+
+.container-img{
+  background-color: #065E05;
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.img-slider{
+  
+  border-radius: 20px;
+}
+
+.btn-login{
+  margin-left: 5px;
+}
+
+.inicio-img{
+  margin-top: 20px;
+  width: 350px;
+  border-radius: 50%;
+} 
+
+.carousel-inner h2{
+    text-align: center;
+    color: white;
+}
