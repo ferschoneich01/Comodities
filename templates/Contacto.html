@@ -12,8 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100;400;500&display=swap" rel="stylesheet">
     <!--script src="../styles/js/index.js"></script-->
-    <title>Comodities | Productos</title>
+    <title>Comodities | Contacto</title>
 </head>
+
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg">
@@ -36,7 +37,7 @@
                             <a id="home" class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a id="products" class="nav-link" href="#">Products</a>
+                            <a id="products" class="nav-link" href="productos.html">Products</a>
                         </li>
                         <!--li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -56,7 +57,7 @@
                             <a id="abouts" class="nav-link" href="Acercade.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a id="contacts" class="nav-link" href="Contacto.html">Contacts</a>
+                            <a id="contacts" class="nav-link" href="#">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -72,9 +73,9 @@
                     <button class="btn btn-outline-success" type="submit">Search</button>
                     <a class="btn btn-success btn-login" href="login.hml">Iniciar</a>
                 </form>
-                
+
             </div>
-            
+
         </div>
     </nav>
 
@@ -84,48 +85,53 @@
         <section class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="main-title">PRODUCTOS</h2>
+                    <h2 class="main-title">FILOSOFIA GLOBAL</h2>
                     <p>
-                        Comercializamos productos a granel con excelentes condiciones comerciales devengadas de las
-                        continuas
-                        negociaciones y estrechas relaciones que se tienen con los grandes productores, procurando
-                        soluciones agiles
-                        e innovadoras para nuestros clientes.
+                        Estamos comprometidos a formar alianzas con productores alrededor del mundo para llevar a la
+                        mesa de las familias de los paises donde comercializamos nuestros productos, alimentos de la
+                        mejor calidad y diversidad.
                     </p>
-                    <button>Solicita Cotizacion</button>
                 </div>
                 <div class="col">
-                    <img src="../styles/assets/Arroz.jpg" alt="" class="inicio-img">
+                    <img src="../styles/assets/contacto.jpg" alt="" class="inicio-img">
                 </div>
             </div>
         </section>
-
-        <section class="products">
-            <figure class="img-products">
-                <h4>Arroz Blanco</h4>
-                <img src="../styles/assets/rice.jpg" width="368px" height="218px" alt="Arroz Blanco">
-
-                <h4>Maiz Amarillo</h4>
-                <img src="../styles/assets/corn.jpg" width="368px" height="218px" alt="Maiz Amarillo">
-
-                <h4>Trigo</h4>
-                <img src="../styles/assets/TrigoC.jpg" width="368px" height="218px" alt="Trigo">
-
-                <h4>Lentejas</h4>
-                <img src="../styles/assets/lentejas.jpg" width="368px" height="218px" alt="Lentejas">
-
-                <h4>Azucar Blanco</h4>
-                <img src="../styles/assets/sugar.jpg" width="368px" height="218px" alt="Azucar Blanco">
-
-                <h4>Frijol Rojo</h4>
-                <img src="../styles/assets/beans.jpg" width="368px" height="218px" alt="Frijol Rojo">
-
-                <h4>Avena</h4>
-                <img src="../styles/assets/avena.png" width="368px" height="218px" alt="">
-
-                <h4>Maní</h4>
-                <img src="../styles/assets/mani.jpg" width="368px" height="218px" alt="">
-            </figure>
+        <section>
+            <form action="">
+                <div class="mb-3">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Seleccione País o Region</option>
+                        <option value="1">Nicaragua</option>
+                        <option value="2">Costa Rica</option>
+                        <option value="3">Guatemala</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="inputName" class="form-label">Nombres</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="Nombres" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputApellido" class="form-label">Apellidos</label>
+                    <input type="lastname" class="form-control" id="inputApellido" placeholder="Apellidos" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputEmpresa" class="form-label">Empresa</label>
+                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Nombre de la Empresa" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputCorreo" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="inputCorreo" placeholder="example@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="textAreaMensaje" class="form-label">¿Cómo Podemos Ayudarte?</label>
+                    <textarea class="form-control" id="etextAreaMensaje" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
         </section>
 </body>
+
 </html>

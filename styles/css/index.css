@@ -11361,3 +11361,16 @@ textarea.form-control-lg {
 .acercade{
   width: 370px;
 }
+
+.mb-3, .col-12{
+  width: 50%;
+  padding-left: 10%;
+}
+
+.col-12{
+  padding-left: 10%;
+}
+
+.btn-primary{
+  width: 100px;
+}
