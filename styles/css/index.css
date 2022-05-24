@@ -12322,6 +12322,7 @@ fieldset:disabled .btn {
   width: 120px;
 }
 
+/*---------------PRODUCTS----------------*/
 .products-container {
   /*margin: 50px;*/
   padding: 5px;
@@ -12348,6 +12349,11 @@ fieldset:disabled .btn {
 .item-commodities {
   inset-inline: block;
   position: relative;
+  
+}
+
+.item-commodities img{
+  width: 300px;
 }
 
 .item-commodities a {
