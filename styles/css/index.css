@@ -12295,6 +12295,8 @@ fieldset:disabled .btn {
   margin-top: 20px;
   width: 350px;
   border-radius: 50%;
+  max-width: 350px;
+
 }
 
 .carousel-inner h2 {
