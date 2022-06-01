@@ -12296,6 +12296,7 @@ fieldset:disabled .btn {
   width: 350px;
   border-radius: 50%;
   max-width: 350px;
+  height: 350px;
 
 }
 
@@ -12304,11 +12305,14 @@ fieldset:disabled .btn {
   color: white;
 }
 
-/* Acerca de*/
+/*-------------Inicio Acerca de--------------*/
 
-.acercade {
-  width: 370px;
+.parrafo-acerca{
+  width: 200px;
+  padding-left: 20px;
 }
+
+/*-------------Fin Acerca de--------------*/
 
 .mb-3,
 .col-12 {
