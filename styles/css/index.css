@@ -12309,7 +12309,7 @@ fieldset:disabled .btn {
 /*-------------Inicio Acerca de--------------*/
 
 main .main-object-parrafos{
-  width: 70%;
+  width: 80%;
   height: 300px;
   text-align: center;
   margin: 0 auto;
@@ -12322,7 +12322,7 @@ main .main-object-parrafos .row div{
   justify-items: center;
   margin-top: 100px;
   margin-right: auto;
-  box-shadow: 0 1px 6px 0 #E1E1E1;;
+  box-shadow: 0 1px 6px 0 black;;
   border-radius: 10px;
   }
 
@@ -12478,6 +12478,27 @@ footer .footer-right h5{
   font-size: 14px;
   color: #D9DBE1;
   margin-top: 80px;
+}
+
+main .main-carrucel-container .row{
+  display: inline-block;
+}
+
+main .main-anuncio{
+  text-align: center;
+  margin-top: 40px;
+  width: 580px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #198754;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+
+main .main-anuncio img{
+  border-radius: 10px;
 }
 
 
