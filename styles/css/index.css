@@ -12283,7 +12283,7 @@ fieldset:disabled .btn {
 }
 
 .img-slider {
-
+  margin-top: 50px;
   border-radius: 20px;
 }
 
@@ -12487,17 +12487,19 @@ main .main-carrucel-container .row{
 main .main-anuncio{
   text-align: center;
   margin-top: 40px;
-  width: 580px;
-  height: 320px;
+  width: 560px;
+  height: 315px;
   border-radius: 10px;
   background-color: #198754;
   justify-items: center;
   justify-content: center;
 }
 
+main .container .content-video{
+  margin-left: 300px;
+}
 
-
-main .main-anuncio img{
+main .main-anuncio .anuncio-video{
   border-radius: 10px;
 }
 
