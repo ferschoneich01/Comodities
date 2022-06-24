@@ -3331,15 +3331,15 @@ fieldset:disabled .btn {
 }
 
 .btn-success {
-  color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-color: #ffffff;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #157347;
-  border-color: #146c43;
+  background-color: #4b83a8;
+  border-color: #ffffff;
 }
 
 .btn-check:focus+.btn-success,
@@ -3681,13 +3681,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success {
-  color: #198754;
-  border-color: #198754;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #198754;
+  background-color: #4b83a8;
   border-color: #198754;
 }
 
@@ -4569,12 +4569,8 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-  background: #065E05;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #f7f7f7, #065E05);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #f7f7f7, #065E05);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: green;
+ 
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -12294,7 +12290,7 @@ fieldset:disabled .btn {
 .inicio-img {
   margin-top: 20px;
   width: 350px;
-  border-radius: 50%;
+  border-radius: 10px;
   max-width: 350px;
   height: 350px;
   margin-left: 120px;
@@ -12400,7 +12396,7 @@ footer{
   grid-template-columns: 1fr 1fr;
   margin-top: 100px;
   font-size: 18px;
-  background-color: #4DAE50;
+  background-color: green;
   border-top: 1 solid #e4e4e4;
 }
 
@@ -12487,8 +12483,8 @@ main .main-carrucel-container .row{
 main .main-anuncio{
   text-align: center;
   margin-top: 40px;
-  width: 560px;
-  height: 315px;
+  width: 650px;
+  height: 380px;
   border-radius: 10px;
   background-color: #198754;
   justify-items: center;
