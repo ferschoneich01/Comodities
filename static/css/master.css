@@ -61,22 +61,18 @@ body {
   font-size: 16px;
 }
 
-.login-box input[type="submit"] {
-  border: none;
-  outline: none;
-  height: 40px;
-  background: #1c81f5;
-  color: #fff;
-  font-size: 18px;
+.btn{
+  width: 100%;
   border-radius: 20px;
 }
 
-.login-box input[type="submit"]:hover {
+
+.btn:hover {
   cursor: pointer;
   background: #3BA840;
 }
 
-.login-box a {
+.link {
   text-decoration: none;
   font-size: 12px;
   line-height: 20px;
@@ -99,6 +95,11 @@ body {
   margin-top:12px ;
 }
 
+.logo-google{
+  width: 20px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
 .link:hover{
   color: rgb(71, 71, 71);
 }

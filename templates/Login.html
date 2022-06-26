@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <title>Login Form Design One | Fazt</title>
+  <link rel="stylesheet" href="../static/css/styles.css">
   <link rel="stylesheet" href="../static/css/master.css">
 </head>
 
@@ -20,24 +22,26 @@
           fill="Green" />
       </svg>
     </div>
-    
-
     <h1>Iniciar sesión</h1>
     <form>
       <!-- USERNAME INPUT -->
       <label for="username">Usuario</label>
-      <input class="textcamp" type="text" placeholder="kenzi.lopez@example.com" required>
+      <input id="username" class="textcamp" type="text" placeholder="kenzi.lopez@example.com" required>
 
       <!-- PASSWORD INPUT -->
       <label for="password">Contraseña</label>
-      <input class="textcamp" type="password" placeholder="Contraseña" required>
-      <input type="submit" value="Iniciar sesión">
-      <input type="submit" value="Iniciar sesión con Google">
+      <input id="password" class="textcamp" type="password" placeholder="Contraseña" required>
+      <br>
+      <a id="btn-singIn" class="btn btn-primary">Iniciar sesion</a><br><br>
+      <a id="btn-singInGoogle" class="btn btn-secondary"><img class="logo-google" src="/static/assets/logo-google.png" alt="">Iniciar sesión con Google</a>
 
-      <a class="link" href="#">¿Has olvidado tu contraseña?</a><br>
-      <a class="link" href="register.html">¿No tienes una cuenta?</a><br>
+      <a class="link" href="#">¿Has olvidado tu contraseña?</a> <br>
+      <a class="link" href="register.html">¿No tienes una cuenta?</a>
     </form>
   </div>
+
+  <script src="/static/js/login.js"></script>
+
 </body>
 
 </html>
