@@ -259,8 +259,8 @@ main .main-carrucel-container .row{
 main .main-anuncio{
   text-align: center;
   margin-top: 40px;
-  width: 650px;
-  height: 380px;
+  width: 600px;
+  height: 330px;
   border-radius: 10px;
   background-color: #198754;
   justify-items: center;
@@ -268,7 +268,7 @@ main .main-anuncio{
 }
 
 main .container .content-video{
-  margin-left: 300px;
+  margin-left: 280px;
 }
 
 main .main-anuncio .anuncio-video{
