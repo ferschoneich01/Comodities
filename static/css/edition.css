@@ -1,0 +1,49 @@
+main{
+    align-items: center;
+}
+
+main .main-search{
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 70%;
+}
+
+main .main-container-product{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+main .comboBox-Select{
+    width: 200px;
+}
+
+main .busqueda-product{
+    width: 600px;
+    margin-left: 10px;
+
+}
+
+/*-------------------------------------------------------------*/
+
+main .content-info{
+    width: 30%;
+    margin: 0 auto;
+}
+
+main form .btn-primary{
+    width: 150px;
+}
+
+
+main .comboBox-Medidas{
+    margin-top: 10px;
+    width: 200px;
+}
+
+main .table{
+    width: 70%;
+    margin:  100px auto 100px auto;
+}
