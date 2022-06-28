@@ -43,7 +43,20 @@ main .comboBox-Medidas{
     width: 200px;
 }
 
-main .table{
+main .content-table{
     width: 70%;
-    margin:  100px auto 100px auto;
+    margin:  100px auto 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+main section .button-table{
+    margin-left: 50px;
+    margin-top: 35px;
+    
+}
+
+main section .button-table .btn-danger{
+    margin-top: 20px;
+    width: 84.44px;
 }
