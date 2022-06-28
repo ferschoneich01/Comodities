@@ -1,8 +1,8 @@
 
 UsersList = [];
 document.addEventListener('DOMContentLoaded', () => {
-    createUser("Ronald Zelaya", "22-05-2000", "Managua", "managua", "ronald22", "123456", "0");
-    createUser("Junito perez", "15-05-2000", "Managua", "managua", "juanito15", "123456", "1");
+    //fullname,birthday,country,phone,username,email,password,role
+    createUser("Fernando Schöneich", "22-05-2000", "Nicaragua", "2266-2688", "Admin","ferschoneich@gmail.com", "123456", "0");
     var users = getUsers();
 
     $('#btn-singIn').on('click', function () {
@@ -47,14 +47,15 @@ function getUsers() {
     return UsersList;
 }
 
-function createUser(fullname, birthday, city, address, username, password, role) {
-
+function createUser(fullname, birthday, country,phone, username,email, password, role) {
+    //fullname,birthday,country,phone,username,email,password,role
     var newUser = {
         fullname: fullname,
         birthday: birthday,
-        city: city,
-        address: address,
+        country: country,
+        phone: phone,
         username: username,
+        email: email,
         password: password,
         role: role
     };

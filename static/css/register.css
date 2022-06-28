@@ -2,23 +2,26 @@ body {
   margin: 0;
   padding: 0;
   background: url(../assets/commodities.jpg) no-repeat center top;
-  background-size: cover;
+  background-size:cover;
+  background-attachment: fixed;
   font-family: sans-serif;
   height: 100vh;
+  padding-bottom: 10px;
 }
 
 .login-box {
   width: 340px;
-  height: 535px;
+  height: 900px;
   background: #fff;
   color: #fff;
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   box-sizing: border-box;
   padding: 70px 30px;
   border-radius: 4%;
+  
 }
 
 .login-box .avatar {
@@ -130,6 +133,18 @@ video {
 canvas{
   width: 600px;
   height: 250px;
+}
+
+.btn-registrarme{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c81f5;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
 }
 /*.logo svg{
   margin-left: 13px;
