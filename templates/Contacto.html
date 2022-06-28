@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--STYLES-->
+    <link rel="stylesheet" href="../static/css/styles.css">
     <link rel="stylesheet" href="../static/css/index.css">
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100;400;500&display=swap" rel="stylesheet">
     <!--script src="../styles/js/index.js"></script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Comodities | Contacto</title>
 </head>
 
@@ -19,7 +21,7 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <div class="col-3">
+            <div class="col-2">
                 <h1 class="logo-text navbar-brand">NiCommodities</h1>
                 <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -39,31 +41,41 @@
                         <li class="nav-item">
                             <a id="products" class="nav-link" href="productos.html">Products</a>
                         </li>
-                        <!--li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                                <li><a class="dropdown-item" href="#">Products</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li-->
                         <li class="nav-item">
-                            <a id="abouts" class="nav-link" href="Acercade.html">About us</a>
+                            <a id="abouts" class="nav-link" href="Acercade.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a id="contacts" class="nav-link" href="#">Contacts</a>
                         </li>
+                        <li id="dropAdmin" class="nav-item dropdown">
+
+                        </li>
                         <li class="nav-item">
                             <a href="car.html">
-                                <svg fill="White" height="27" viewBox="0 0 30 27" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M1.39999 1.70001H6.60001" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M6.60001 1.70001L11 18.9" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M11.8 18.9H28.3" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M13.8 25.7C15.4569 25.7 16.8 24.3569 16.8 22.7C16.8 21.0432 15.4569 19.7 13.8 19.7C12.1431 19.7 10.8 21.0432 10.8 22.7C10.8 24.3569 12.1431 25.7 13.8 25.7Z" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M25.3 25.7C26.9568 25.7 28.3 24.3569 28.3 22.7C28.3 21.0432 26.9568 19.7 25.3 19.7C23.6431 19.7 22.3 21.0432 22.3 22.7C22.3 24.3569 23.6431 25.7 25.3 25.7Z" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M25.7 14.6H11.3C10.7 14.6 10.1 14.2 10 13.6L8.1 6.90001C7.9 6.00001 8.49999 5.20001 9.39999 5.20001H27.5C28.4 5.20001 29.1 6.10001 28.8 6.90001L26.9 13.6C26.9 14.2 26.4 14.6 25.7 14.6Z" stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" fill=""/></svg>
+                                <svg fill="White" height="27" viewBox="0 0 30 27" width="30"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.39999 1.70001H6.60001" stroke="#4F4F4F" stroke-linecap="round"
+                                        stroke-miterlimit="10" stroke-width="2" />
+                                    <path d="M6.60001 1.70001L11 18.9" stroke="#4F4F4F" stroke-linecap="round"
+                                        stroke-miterlimit="10" stroke-width="2" />
+                                    <path d="M11.8 18.9H28.3" stroke="#4F4F4F" stroke-linecap="round"
+                                        stroke-miterlimit="10" stroke-width="2" />
+                                    <path
+                                        d="M13.8 25.7C15.4569 25.7 16.8 24.3569 16.8 22.7C16.8 21.0432 15.4569 19.7 13.8 19.7C12.1431 19.7 10.8 21.0432 10.8 22.7C10.8 24.3569 12.1431 25.7 13.8 25.7Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10"
+                                        stroke-width="2" />
+                                    <path
+                                        d="M25.3 25.7C26.9568 25.7 28.3 24.3569 28.3 22.7C28.3 21.0432 26.9568 19.7 25.3 19.7C23.6431 19.7 22.3 21.0432 22.3 22.7C22.3 24.3569 23.6431 25.7 25.3 25.7Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10"
+                                        stroke-width="2" />
+                                    <path
+                                        d="M25.7 14.6H11.3C10.7 14.6 10.1 14.2 10 13.6L8.1 6.90001C7.9 6.00001 8.49999 5.20001 9.39999 5.20001H27.5C28.4 5.20001 29.1 6.10001 28.8 6.90001L26.9 13.6C26.9 14.2 26.4 14.6 25.7 14.6Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                                        fill="" />
+                                </svg>
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -76,7 +88,9 @@
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                    <a class="btn btn-success btn-login" href="./Login.html">Iniciar</a>
+                    <div id="session">
+                        <a id="btn-login" class="btn btn-success btn-login" href="./Login.html">Iniciar</a>
+                    </div>
                 </form>
 
             </div>
@@ -89,7 +103,7 @@
 
         <section class="container">
             <div class="row">
-                <div class="col" align = "justify">
+                <div class="col" align="justify">
                     <h2 class="main-title">FILOSOFIA GLOBAL</h2>
                     <p>
                         Estamos comprometidos a formar alianzas con productores alrededor del mundo para llevar a la
@@ -102,7 +116,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section>
             <form action="">
                 <div class="mb-3">
@@ -125,7 +139,8 @@
                 </div>
                 <div class="mb-3">
                     <label for="inputEmpresa" class="form-label">Empresa</label>
-                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Nombre de la Empresa" required>
+                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Nombre de la Empresa"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="inputCorreo" class="form-label">Correo Electronico</label>
@@ -133,7 +148,8 @@
                 </div>
                 <div class="mb-3">
                     <label for="textAreaMensaje" class="form-label">¿Cómo Podemos Ayudarte?</label>
-                    <textarea class="form-control" id="etextAreaMensaje" rows="5" placeholder="Mensaje" required></textarea>
+                    <textarea class="form-control" id="etextAreaMensaje" rows="5" placeholder="Mensaje"
+                        required></textarea>
                 </div>
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Enviar</button>
@@ -180,6 +196,11 @@
         </div>
 
     </footer>
+
+    <script src="/static/js/contactos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

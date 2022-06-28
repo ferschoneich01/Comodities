@@ -1,10 +1,9 @@
 
 UsersList = [];
 document.addEventListener('DOMContentLoaded', () => {
-    createUser("Ronald Zelaya", "22-05-2000", "Managua", "managua", "ronald22", "123456");
+    createUser("Ronald Zelaya", "22-05-2000", "Managua", "managua", "ronald22", "123456", "0");
+    createUser("Junito perez", "15-05-2000", "Managua", "managua", "juanito15", "123456", "1");
     var users = getUsers();
-    console.log(users);
-    console.log(window.location.href);
 
     $('#btn-singIn').on('click', function () {
         const username = $("#username").val();
@@ -48,7 +47,7 @@ function getUsers() {
     return UsersList;
 }
 
-function createUser(fullname, birthday, city, address, username, password) {
+function createUser(fullname, birthday, city, address, username, password, role) {
 
     var newUser = {
         fullname: fullname,
@@ -56,7 +55,8 @@ function createUser(fullname, birthday, city, address, username, password) {
         city: city,
         address: address,
         username: username,
-        password: password
+        password: password,
+        role: role
     };
 
     UsersList.push(newUser);
